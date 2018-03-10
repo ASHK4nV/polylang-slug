@@ -209,7 +209,7 @@ function polylang_slug_posts_where_filter( $where, $query ) {
 
 	return $where;
 }
-add_filter( 'posts_where', 'polylang_slug_posts_where_filter', 10, 2 );
+// add_filter( 'posts_where', 'polylang_slug_posts_where_filter', 10, 2 );
 
 /**
  * Extend the JOIN clause of the query.
@@ -235,7 +235,7 @@ function polylang_slug_posts_join_filter( $join, $query ) {
 
 	return $join;
 }
-add_filter( 'posts_join', 'polylang_slug_posts_join_filter', 10, 2 );
+// add_filter( 'posts_join', 'polylang_slug_posts_join_filter', 10, 2 );
 
 /**
  * Check if the query needs to be adapted.
